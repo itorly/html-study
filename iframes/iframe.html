@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+
+<!-- Set Height and Width -->
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+<p>You can also use the CSS height and width properties to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" style="height:200px;width:300px" title="Iframe Example"></iframe>
+
+<!-- Remove the Border -->
+<div>
+    <p>To remove the border, add the style attribute and use the CSS border property:</p>
+    <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+    <p>With CSS, you can also change the size, style and color of the iframe's border:</p>
+    <iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+</div>
+
+<!-- Target for a Link -->
+<div>
+    <h2>Target for a Link</h2>
+    <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+    <p><a href="https://www.w3schools.com" target="iframe_a">bing.com</a></p>
+
+    <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+</div>
+
+</body>
+</html>
+
